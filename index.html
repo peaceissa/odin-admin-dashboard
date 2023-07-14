@@ -4,54 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
     <div class="sidebar">
         <div id="dashboard_icon">
-            <img src="#" alt="dashboard Icon">Dashboard
+            <div class="side_items">
+            <img src="images/view-dashboard.svg" alt="dashboard Icon" width="50px" height="50px"> 
+            <P>Dashboard</P>
+            </div>
         </div>
         <div class="nav_icons">
-            <div>
-                <img src="#" alt="" width="10px" height="10px">Home
+            <div class="side_items">
+                <img src="images/home.svg" alt="home_icon" width="40px" height="40px"> 
+                <p>Home</p>
             </div>
-            <div>
-                <img src="#" alt="" width="10px" height="10px">Profile
-            <div>
-                <img src="#" alt="" width="10px" height="10px">History               
-            <div>
-                <img src="#" alt="" width="10px" height="10px">Messages              
-            <div>
-                <img src="#" alt="" width="10px" height="10px">Tracks              
-            <div>
-                <img src="#" alt="" width="10px" height="10px">Committees
+            <div class="side_items">
+                <img src="images/clipboard-account.svg" alt="profile_icon" width="40px" height="40px"> 
+                <p>Profile</p>
             </div>
+            <div class="side_items">
+                <img src="images/history.svg" alt="history_icon" width="40px" height="40px"> 
+                <p>History</p>
+            </div>               
+            <div class="side_items">
+                <img src="images/message-bulleted.svg" alt="messages_icon" width="40px" height="40px"> 
+                <p>Messages </p>
+            </div>             
+            <div class="side_items">
+                <img src="images/file-document-multiple-outline.svg"alt="tasks_icon" width="40px" height="40px"> 
+               <p>Tasks</p>  
+            </div>            
+            <div class="side_items">
+                <img src="images/account-group.svg" alt="communities_icon" width="40px" height="40px"> 
+                <p>Communities</p>
+            </div>
+         </div>   
         <div class="control_icons">
-            <div>
-                <img src="#" alt="" width="10px" height="10px">Settings
+            <div class="side_items">
+                <img src="images/cog-outline.svg" alt="settings_icon" width="40px" height="40px"> 
+                <p>Settings</p>
             </div>
-            <div>
-                <img src="#" alt="" width="10px" height="10px">Support
+            <div class="side_items">
+                <img src="images/face-agent.svg" alt="Support_icon" width="40px" height="40px"> 
+                <p>Support</p>
             </div>
-            <div>
-                <img src="#" alt="" width="10px" height="10px">Privacy
+            <div class="side_items">
+                <img src="images/shield-lock-outline.svg" alt="Privacy_icon" width="40px" height="40px"> 
+                <p>Privacy</p>
             </div>
         </div>
     </div>
     <div class="head">
-        <div>
+        <div class="headrow_1">
             <div class="search">
-            <label for="search_bar"><img src="#" alt="search_icon" width="5px" height="5px"></label>
+            <label for="search_bar"><img src="images/magnify.svg" alt="search_icon" width="30px" height="30px"></label>
             <input type="text" name="search_bar" id="search_bar">
             </div>
             <div class="prof_icons">
                 <img src="#" alt="notification_icon" width="5px" height="5px">
-                <img src="#" alt="profile_logo" width="10px" height="10px">
+                <img src="#" alt="profile_logo" width="20px" height="20px">
                 <p>Morgan Oakley</p>
             </div>
         </div>
-        <div>
-            <div>
-                <img src="#" alt="profile_logo">
+        <div class="headrow_2">
+            <div class="greetings">
+                <img src="#" alt="profile_logo" width="20px" height="20px">
                 <div class="p_texts">
                     <p>Hi there,</p>
                     <p>Morgan Oakley (@morgan)</p>
@@ -67,41 +86,107 @@
     <div class="Projects_section">
         <h3>Your projects</h3>
         <div>
-            <h3></h3>
-            <p></p>
+            <h3>Super Cool Project</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, architecto.</p>
             <div class="mini_icons">
+                <img src="images/star-plus-outline.svg" alt="star_icon" width="30px" height="30px">
+                <img src="images/eye-plus-outline.svg" alt="password_icon" width="30px" height="30px">
+                <img src="images/share-variant-outline.svg" alt="share_icon" width="30px" height="30px">
             </div>
         </div>
         <div>
-            <h3></h3>
-            <p></p>
+            <h3>Less Cool Project</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, totam officia sed aliquam facilis accusamus labore cum est. Officia, harum?</p>
             <div class="mini_icons">
+                <img src="images/star-plus-outline.svg" alt="star_icon" width="30px" height="30px">
+                <img src="images/eye-plus-outline.svg" alt="password_icon" width="30px" height="30px">
+                <img src="images/share-variant-outline.svg" alt="share_icon" width="30px" height="30px">
             </div>
         </div>
         <div>
-            <h3></h3>
-            <p></p>
+            <h3>Impossible App</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vitae recusandae maxime, illo perspiciatis tenetur.</p>
             <div class="mini_icons">
+                <img src="images/star-plus-outline.svg" alt="star_icon" width="30px" height="30px">
+                <img src="images/eye-plus-outline.svg" alt="password_icon" width="30px" height="30px">
+                <img src="images/share-variant-outline.svg" alt="share_icon" width="30px" height="30px">
             </div>
         </div>
         <div>
-            <h3></h3>
-            <p></p>
+            <h3>Easy Peasy App</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repellendus eum tenetur quos possimus, dolorem fugit nostrum explicabo fugiat, illum id, ullam aliquam! Explicabo, nam.</p>
             <div class="mini_icons">
+                <img src="images/star-plus-outline.svg" alt="star_icon" width="30px" height="30px">
+                <img src="images/eye-plus-outline.svg" alt="password_icon" width="30px" height="30px">
+                <img src="images/share-variant-outline.svg" alt="share_icon" width="30px" height="30px">
             </div>
         </div>
         <div>
-            <h3></h3>
-            <p></p>
+            <h3>Ad Blocker</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nemo doloribus ipsa itaque atque alias dolores impedit!</p>
             <div class="mini_icons">
+                <img src="images/star-plus-outline.svg" alt="star_icon" width="30px" height="30px">
+                <img src="images/eye-plus-outline.svg" alt="password_icon" width="30px" height="30px">
+                <img src="images/share-variant-outline.svg" alt="share_icon" width="30px" height="30px">
             </div>
         </div>
         <div>
-            <h3></h3>
-            <p></p>
+            <h3>Money Maker</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci repudiandae, nemo voluptatibus architecto reprehenderit tempora minima alias quo beatae exercitationem quasi.</p>
             <div class="mini_icons">
+                <img src="images/star-plus-outline.svg" alt="" width="30px" height="30px">
+                <img src="images/eye-plus-outline.svg" alt="" width="30px" height="30px">
+                <img src="images/share-variant-outline.svg" alt="" width="30px" height="30px">
             </div>
         </div>
+    </div>
+    <div class="announcements_section">
+        <h2>Announcements</h2>
+        <div>
+            <h3>Site Maintenance</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione omnis ut totam aspernatur! Voluptate soluta reprehenderit aperiam sunt dolorem.</p>
+        </div>
+        <div>
+            <h3>Community Share Day</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas at sapiente autem molestiae, fugit repudiandae.</p>
+        </div>
+        <div>
+            <h3>Updated Privacy Policy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aut ad at dolor voluptates eaque quam quas praesentium voluptatibus laboriosam impedit. Ipsa neque eaque dignissimos!</p>
+        </div>
+        
+    </div>
+    <div class="trending_section">
+        <h2>Trending</h2>
+        <div>
+            <img src="#" alt="">
+            <div>
+                <p>@tegan</p>
+                <p>World Peace Builder</p>
+            </div>
+        </div>
+        <div>
+            <img src="#" alt="">
+            <div>
+                <p>@morgan</p>
+                <p>Super Cool Project</p>
+            </div>
+        </div>
+        <div>
+            <img src="#" alt="">
+            <div>
+                <p>@Kendall</p>
+                <p>Life Changing App</p>
+            </div>
+        </div>
+        <div>
+            <img src="#" alt="" width="15px" height="15px">
+            <div>
+                <p>@alex</p>
+                <p>No Traffic Maker</p>
+            </div>
+        </div>
+    </div>
     </div>
 </body>
 </html>
