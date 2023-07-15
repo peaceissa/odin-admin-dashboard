@@ -18,6 +18,7 @@ body{
 }
 #dashboard_icon{
     margin-bottom: 100px;
+    align-items: center;
 }
 p{
     margin: 0;
@@ -31,10 +32,11 @@ p{
 }
 .nav_icons{
     margin-bottom: 100px;
+    align-items: center;
 }
 .side_items{
     display: flex;
-    justify-items: center;
+    align-items: center;
     gap: 3px;
 }
 .dashboard_icons .control_icons .nav_icons{
