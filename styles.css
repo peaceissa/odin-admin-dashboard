@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(179, 176, 176);
+    background-color: rgb(127, 153, 160);
+    max-height: 100vh;
 }
 .container{
     display: grid;
@@ -22,57 +23,96 @@ body{
 .head{
     background-color: rgb(244, 250, 250);
     grid-column: 2 / 3;
-    display: grid;
-    grid-template-rows: 1fr 1fr; 
 }
-/* .headrow_1{
-    align-items: center;
-} */
+.headrow_1{
+    display: flex;
+    gap: 5px;
+    margin: 2px;
+    justify-content: space-evenly;
+}
 .search{
-    justify-self: start;
+   justify-items: flex-start;
+    
 }
 .prof_icons{
-    justify-self: end;
+    justify-self: flex-end;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 input{
     width: 400px;
     border-radius: 2px;
+    height: 20px;
 }
 .headrow_2{
-    align-items: center;
-    display: grid;
-    grid-template-rows: 1fr;
+    display:flex;
+    align-items: center; 
+    gap: 8px;
+    justify-content: space-between;
+    margin: 2px;
 }
-/* .greetings{
-    justify-self: start;
-} */
-.p_texts{
-    align-items: center;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 0px;
-    margin: 0px;
-    /* width: 100px; */
-}
+
 .btns{
-    justify-self: end;
+    /* justify-self: flex-end; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:4px;
+    gap:5px;
+}
+button{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(6, 41, 240);
+    color: aliceblue;
+    border-color: rgb(19, 19, 253);
+    border-width: 0.5px;
+
 }
 .content_section{
     grid-column: 2/ 3;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;   
 }
 .Projects_section{
-    grid-column: 1 / 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
 }
-.announcements_section{
-    grid-column: 3 / 4;
+.content_section h3{
+    margin-bottom: 15px;
 }
-.trending_section{
-    grid-column: 3 / 4;
+.Proj{
+    max-width: 300px;
+    max-height: 180px;
+    background-color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    border-left: 10px solid goldenrod;
+    gap: 5px;
+    padding: 20px;
+    margin-bottom: 15px; 
+    border-radius: 3px;
+}
+.mini_icons{
+    display: flex;
+    margin-top: 5px;
+}
+
+.announcements_section {
+    
+    max-width: 700px;
+    height: 400px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: azure;
+}
+.trend{
+    display: flex;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 70px;
 }
